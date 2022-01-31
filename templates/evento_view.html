@@ -1,0 +1,14 @@
+{% extends "base_template.html" %}
+{% block title %}{{ evento.nombre }}{% endblock %}
+{% block content %}
+    <h1></h1>Nombre del evento es: {{ evento.nombre }}</h1> </br>
+    Categoria: {{ evento.idCategoriaEvento }} </br>
+    Lugar: {{ evento.lugar }} </br>
+    Dirección: {{ evento.direccion }} </br>
+    Fecha Inicio: {{ evento.fechaInicio }} </br>
+    Fecha Fin: {{ evento.fechaFin }} </br>
+    Tipo Evento: {{ evento.idTipoEvento }} </br>
+    Fecha Creación: {{ evento.fechaCreacion }} </br>
+
+{% endblock %}
+

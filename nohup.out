@@ -1,0 +1,116 @@
+ * Serving Flask app 'run' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/home/c.castrov/proyecto0/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+/home/c.castrov/proyecto0/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.24.41.237:8080/ (Press CTRL+C to quit)
+157.253.92.66 - - [31/Jan/2022 14:42:09] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:42:09] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:42:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 14:42:11] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:42:11] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 14:42:13] "GET /login HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:42:13] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 14:42:14] "[32mPOST /login HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 14:42:14] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:42:14] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+ * Serving Flask app 'run' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/home/c.castrov/proyecto0/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+/home/c.castrov/proyecto0/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.24.41.237:8080/ (Press CTRL+C to quit)
+157.253.92.66 - - [31/Jan/2022 14:52:15] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:52:15] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 14:52:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 14:52:18] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 14:52:18] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:03:12] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:03:12] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:03:17] "GET /signup/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:03:17] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:04:45] "POST /signup/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:04:46] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:04:50] "GET /login HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:04:50] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:04:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 15:04:53] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:04:53] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:04:59] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:04:59] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:08:30] "[32mGET /eventoDelete/5/ HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 15:08:30] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:08:30] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:08:34] "GET /evento/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:08:34] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 15:08:40] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:08:40] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:10:31] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:14:29] "GET /evento/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:14:29] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:15:32] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:15:32] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:15:34] "GET /e/4/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:15:34] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:15:47] "[32mGET /e/4 HTTP/1.1[0m" 308 -
+157.253.92.66 - - [31/Jan/2022 15:15:47] "GET /e/4/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:15:51] "[31m[1mPOST /e/4 HTTP/1.1[0m" 405 -
+157.253.92.66 - - [31/Jan/2022 15:15:56] "[32mGET /e/4 HTTP/1.1[0m" 308 -
+157.253.92.66 - - [31/Jan/2022 15:15:56] "GET /e/4/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 15:17:03] "GET / HTTP/1.1" 200 -
+ * Serving Flask app 'run' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+/home/c.castrov/proyecto0/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+/home/c.castrov/proyecto0/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  warnings.warn(FSADeprecationWarning(
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.24.41.237:8080/ (Press CTRL+C to quit)
+157.253.92.66 - - [31/Jan/2022 16:41:27] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:27] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:31] "[32mGET /eventoDelete/4/ HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 16:41:31] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:31] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:34] "GET /evento/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:34] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 16:41:36] "POST /evento/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:36] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:39] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:39] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 16:41:43] "GET /eventoupdate/2/ HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:43] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:47] "[32mPOST /eventoupdate/2/ HTTP/1.1[0m" 302 -
+157.253.92.66 - - [31/Jan/2022 16:41:47] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:47] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 16:41:59] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:41:59] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:42:00] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:42:00] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:57:21] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:57:21] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:57:25] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 16:57:25] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 17:08:14] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 17:08:15] "GET /static/base.css HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 17:32:07] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 17:32:07] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 18:05:29] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 18:05:29] "[36mGET /static/base.css HTTP/1.1[0m" 304 -
+157.253.92.66 - - [31/Jan/2022 18:14:24] "GET / HTTP/1.1" 200 -
+157.253.92.66 - - [31/Jan/2022 18:14:24] "GET /static/base.css HTTP/1.1" 200 -

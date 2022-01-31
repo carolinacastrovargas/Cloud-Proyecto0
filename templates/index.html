@@ -1,0 +1,15 @@
+{% extends "base_template.html" %}
+{% block title %}Proyecto 0 - Carolina Castro - c.castrov@uniandes.edu.co{% endblock %}
+{% block content %}
+    <ul>
+    {% for evento in eventos %}
+        <li>
+            
+            <a href="{{ evento.public_url() }}">{{ evento.nombre }}</a>
+            <a href="{{ evento.evento_delete() }}">Eliminar</a>
+            <a href="{{ evento.evento_update() }}">Actualizar</a>
+          
+        </li>
+    {% endfor %}
+    </ul>
+{% endblock %}

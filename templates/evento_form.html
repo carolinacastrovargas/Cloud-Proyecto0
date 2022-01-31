@@ -1,0 +1,83 @@
+{% extends "base_template.html" %}
+
+{% block title %}
+    {% if form.nombre.data %}
+        {{ form.nombre.data }}
+    {% else %}
+        Nuevo evento
+    {% endif %}
+{% endblock %}
+
+
+{% block content %}
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.nombre.label }}
+            {{ form.nombre }}<br>
+            {% for error in form.nombre.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.idCategoriaEvento.label }}
+            <select  name = "idCategoriaEvento" id = 'idCategoriaEvento'>
+                <option value="1">Conferencia</option>
+                <option value="2">Seminario</option>
+                <option value="3">Congreso</option>
+                <option value="4">Curso</option>
+            </select>
+            {% for error in form.idCategoriaEvento.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.lugar.label }}
+            {{ form.lugar }}<br>
+            {% for error in form.lugar.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.direccion.label }}
+            {{ form.direccion }}<br>
+            {% for error in form.direccion.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.fechaInicio.label }}
+            {{ form.fechaInicio }}<br>
+            {% for error in form.fechaInicio.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+    
+        <div>
+            {{ form.fechaFin.label }}
+            {{ form.fechaFin }}<br>
+            {% for error in form.fechaFin.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div>
+            {{ form.idTipoEvento.label }}
+            <select  name = "idTipoEvento" id = 'idTipoEvento'>
+                <option value="1">Presencial</option>
+                <option value="2">Virtual</option>
+            </select>
+            {% for error in form.idTipoEvento.errors %}
+            <span style="color: red;">{{ error }}</span>
+            {% endfor %}
+        </div>
+        
+        <div>
+        {% if form.nombre.data %}
+            <input type="submit">
+        {% else %}
+            {{ form.submit() }}
+        {% endif %}
+            
+        </div>
+    </form>
+{% endblock %}
